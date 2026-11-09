@@ -6,12 +6,22 @@
 -->
 <html>
 	<head>
-		<title>Ousama Batais Portfolio</title>
+		<title>Ousama Batais | Analytics &amp; Technology Portfolio</title>
+<meta name="description" content="Ousama Batais: UT Dallas Computer Science graduate, AT&T Specialist Office of the President, and Power BI, SQL and Python portfolio projects." />
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
+	<style>
+#intro p{max-width:58rem;margin-left:auto;margin-right:auto}
+#intro .actions{flex-wrap:wrap}#nav .links a{font-size:.7rem}
+#main>.posts>article p{font-size:1rem}section[id],article[id]{scroll-margin-top:2rem}
+details summary{cursor:pointer;font-family:Arial,sans-serif;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:1.2rem;border:1px solid #ddd;list-style:revert}
+.archive-projects{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:3rem}.archive-projects article{min-width:0}
+.archive-projects h2{font-size:1.4rem}.archive-projects .image{margin:1.5rem 0}.archive-projects p{font-size:.95rem}
+a:focus-visible,summary:focus-visible{outline:3px solid #18bfef;outline-offset:5px}
+@media(max-width:736px){.archive-projects{grid-template-columns:1fr;gap:2rem}#intro .actions{justify-content:center}#footer .actions{flex-wrap:wrap}}
+</style></head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -21,7 +31,8 @@
 					<div id="intro">
 						<h1>Ousama Batais<br />
 						Portfolio</h1>
-						<p> I'm a computer science student, passionate about technology and innovation. With a strong coding background, I enjoy crafting solutions for complex problems. I'm dedicated to continuous learning and strive to merge creativity and precision in every project I undertake <a href="https://github.com/omsb8">@GitHub </a><br /></p>
+						<p>Computer Science graduate. Customer advocate. Building toward analytics.<br />I’m Ousama “Sam” Batais, an AT&amp;T Specialist in the Office of the President, with a B.S. in Computer Science from UT Dallas and AWS Certified Cloud Practitioner.<br />Explore my work in Power BI, SQL, Python, and machine learning.</p>
+<ul class="actions special"><li><a href="#selected-work" class="button primary scrolly">Explore selected work</a></li><li><a href="https://github.com/omsb8" class="button">GitHub</a></li></ul>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -29,13 +40,13 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">View My Projects Below</a>
+						<a href="index.html" class="logo">Ousama Batais</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
+							<li class="active"><a href="#selected-work">Selected work</a></li><li><a href="#experience">Background</a></li><li><a href="#academic">Academic archive</a></li>
 						</ul>
 						<ul class="icons">
 							<!-- <li><a href="https://twitter.com/o_msb9" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
@@ -50,164 +61,142 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">Fall 2024</span>
-									<h2><a href="#">Steganography<br /></a></h2>
-								</header>
-								<a href="https://github.com/Anubhav12pal/SeniorProjectSteganography" target="_blank" class="image main"><img src="images/stegano.png" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/Anubhav12pal/SeniorProjectSteganography" target="_blank" class="button large">View Project</a></li>
-								</ul>
-							</article>
+							<article class="post featured" id="selected-work">
+<header class="major"><span class="date">Featured · Power BI · 2026</span><h2><a href="https://github.com/omsb8/personal-finance-power-bi-dashboard">Personal Finance<br />Dashboard</a></h2><p>From transaction data to a clear picture of spending, budgets, and savings.</p></header>
+<a href="https://github.com/omsb8/personal-finance-power-bi-dashboard" class="image main"><img src="https://raw.githubusercontent.com/omsb8/personal-finance-power-bi-dashboard/main/screenshots/dashboard-overview.png" alt="Power BI personal finance dashboard showing spending, budgets and savings" /></a>
+<p>Built with Power Query, data modeling, and DAX. The dashboard compares actual spending against budgets, displays key financial measures, and supports interactive filtering. The public repository contains an anonymized dataset, a Power BI file, and a dashboard preview.</p>
+<ul class="actions special"><li><a href="https://github.com/omsb8/personal-finance-power-bi-dashboard" class="button primary large">View dashboard project</a></li></ul></article>
 
 						<!-- Posts -->
-							<section class="posts">
-								<article>
+							<section class="posts" aria-label="Selected analytical projects"><article>
+									<header>
+										<span class="date">Spring 2024</span>
+										<h2><a href="https://github.com/omsb8/club-linkers">Club Linkers Database<br /></a></h2>
+									</header>
+									<a href="https://github.com/omsb8/club-linkers" target="_blank" rel="noopener noreferrer" class="image main"><img src="images/Club_Linkers.png" alt="Club Linkers database project" /></a>
+									<p>Academic database project for a campus club and events platform. Repository materials include database design, data generation, and query examples. Demonstrates relational modeling and SQL with MySQL/MariaDB.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/omsb8/club-linkers" target="_blank" rel="noopener noreferrer" class="button large">View Project</a></li>
+									</ul>
+								</article>
+<article>
 									<header>
 										<span class="date">Fall 2024</span>
-										<h2><a href="#">Stranded Island Game<br /></a></h2>
+										<h2><a href="https://github.com/omsb8/lstm-networks-for-time-series-prediction">Implementing and Analyzing LSTM for Time Series Prediction<br /></a></h2>
 									</header>
-									<a href="https://github.com/nxs-se2016/Team13-UnityGame.git" target="_blank" class="image main"><img
-											src="images/island-game.png" alt="" /></a>
+									<a href="https://colab.research.google.com/drive/1MYmtIrwn17zH2O4CPEvQhbJAbJKK-nm1?usp=sharing" target="_blank" rel="noopener noreferrer" class="image main"><img
+											src="images/lstm.png" alt="LSTM predictive maintenance project" /></a>
+									<p>Implemented LSTM networks to predict machine failures using industrial sensor data. Leveraged Pandas, NumPy, and
+									Matplotlib for preprocessing and analysis, achieving low validation loss and improving predictive reliability for
+									maintenance strategies.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/omsb8/lstm-networks-for-time-series-prediction" target="_blank" rel="noopener noreferrer" class="button large">View Project</a></li>
+									</ul>
+								</article>
+<article>
+									<header>
+										<span class="date">Fall 2024</span>
+										<h2><a href="https://github.com/omsb8/comparing-investment-strategies">Comparing Long-Term Investment Strategies<br /></a></h2>
+									</header>
+									<a href="https://colab.research.google.com/drive/1MKH7nCcz6mk-48tHIGXepqh1-DbzraGX?usp=sharing" target="_blank" rel="noopener noreferrer" class="image main"><img
+											src="images/compare-invest-strategies.png" alt="Investment strategy analysis" /></a>
+									<p>Academic Python analysis comparing Buy and Hold with an SMA crossover strategy. Includes a notebook, script, and report. Demonstrates simulation and visualization; results depend on the data and assumptions used and are not investment recommendations.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/omsb8/comparing-investment-strategies" target="_blank" rel="noopener noreferrer" class="button large">View Project</a></li>
+									</ul>
+								</article></section>
+<section class="post" id="experience"><header class="major"><span class="date">Background &amp; direction</span><h2>Experience that<br />informs the analysis.</h2></header>
+<h3>AT&amp;T · Specialist Office of the President</h3>
+<p>My current work combines complex customer escalations, case management, fraud and risk-related issues, and dashboard/KPI awareness. I bring investigation, documentation, and cross-team coordination to the problems I solve. Previously, I worked as a Premier Support Specialist at AT&amp;T.</p>
+<h3>Technical foundation</h3>
+<ul><li>B.S. in Computer Science — The University of Texas at Dallas, December 2024.</li><li>AWS Certified Cloud Practitioner — earned January 2026.</li><li>Current focus: Power BI, DAX, SQL, and translating operational questions into useful analysis.</li></ul>
+<p>I’m developing toward data analyst, business intelligence, analytics, business analyst, and technical corporate opportunities in the Dallas–Fort Worth area.</p>
+</section>
+<section class="post" id="academic"><header class="major"><span class="date">Earlier work · preserved for context</span><h2>Academic &amp;<br />software projects</h2><p>Selected college projects show my broader computer science foundation.<br />They are historical work, rather than an ongoing maintenance roadmap.</p></header>
+<details><summary>Explore earlier projects</summary><div class="archive-projects"><article class="archive-item">
+								<header class="major">
+									<span class="date">Fall 2024</span>
+									<h2><a href="https://github.com/Anubhav12pal/SeniorProjectSteganography">Steganography<br /></a></h2>
+								</header>
+								<a href="https://github.com/Anubhav12pal/SeniorProjectSteganography" target="_blank" rel="noopener noreferrer" class="image main"><img src="images/stegano.png" alt="Academic steganography project" /></a>
+								<ul class="actions special">
+									<li><a href="https://github.com/Anubhav12pal/SeniorProjectSteganography" target="_blank" rel="noopener noreferrer" class="button large">View Project</a></li>
+								</ul>
+							</article><article>
+									<header>
+										<span class="date">Fall 2024</span>
+										<h2><a href="https://github.com/omsb8/stranded-unity-game">Stranded Island Game<br /></a></h2>
+									</header>
+									<a href="https://github.com/nxs-se2016/Team13-UnityGame.git" target="_blank" rel="noopener noreferrer" class="image main"><img
+											src="images/island-game.png" alt="Stranded Island Unity game" /></a>
 									<p>Developed a 3D adventure-puzzle game in Unity featuring a stranded island theme. Collaborated with a team to design and
 									animate multiple interactive puzzles using C#, integrated custom 3D assets created in Blender, and managed version
 									control with GitHub. The game challenges players to solve puzzles, collect boat pieces, and escape the island,
 									delivering an engaging and immersive experience.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/omsb8/stranded-unity-game" target="_blank" class="button large">View Project</a></li>
+										<li><a href="https://github.com/omsb8/stranded-unity-game" target="_blank" rel="noopener noreferrer" class="button large">View Project</a></li>
 									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Fall 2024</span>
-										<h2><a href="#">Implementing and Analyzing LSTM for Time Series Prediction<br /></a></h2>
-									</header>
-									<a href="https://colab.research.google.com/drive/1MYmtIrwn17zH2O4CPEvQhbJAbJKK-nm1?usp=sharing" target="_blank" class="image main"><img
-											src="images/lstm.png" alt="" /></a>
-									<p>Implemented LSTM networks to predict machine failures using industrial sensor data. Leveraged Pandas, NumPy, and
-									Matplotlib for preprocessing and analysis, achieving low validation loss and improving predictive reliability for
-									maintenance strategies.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/omsb8/lstm-networks-for-time-series-prediction" target="_blank" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Fall 2024</span>
-										<h2><a href="#">Comparing Long-Term Investment Strategies<br /></a></h2>
-									</header>
-									<a href="https://colab.research.google.com/drive/1MKH7nCcz6mk-48tHIGXepqh1-DbzraGX?usp=sharing" target="_blank" class="image main"><img
-											src="images/compare-invest-strategies.png" alt="" /></a>
-									<p>Simulated and compared Buy and Hold vs. Active Trading strategies over 30 years using Python. Implemented SMA Crossover
-									for Active Trading and visualized results with Matplotlib and Pandas, showing the superior performance of Buy and Hold
-									through equity and return metrics.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/omsb8/comparing-investment-strategies" target="_blank" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">Spring 2024</span>
-										<h2><a href="#">Club Linkers Database<br /></a></h2>
-									</header>
-									<a href="https://github.com/omsb8/club-linkers" target="_blank" class="image main"><img src="images/Club_Linkers.png" alt="" /></a>
-									<p>Comet Connect is a dynamic platform created for the University of Texas at Dallas community, designed to connect
-									students, faculty, and staff with clubs and events on campus. It allows users to subscribe to clubs, participate in
-									discussions, and stay informed about upcoming events, all through a convenient app interface.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/omsb8/club-linkers" target="_blank" class="button large">View Project</a></li>
-									</ul>
-								</article>
-								<article>
+								</article><article>
 									<header>
 										<span class="date">Fall 2023</span>
-										<h2><a href="#">My CS Courses<br /></a></h2>
+										<h2><a href="https://my-cs-courses.netlify.app/">My CS Courses<br /></a></h2>
 									</header>
-									<a href="https://my-cs-courses.netlify.app/" target="_blank" class="image main"><img src="images/cs-courses.png" alt="" /> </a>
+									<a href="https://my-cs-courses.netlify.app/" target="_blank" rel="noopener noreferrer" class="image main"><img src="images/cs-courses.png" alt="Computer science coursework application" /> </a>
 									<p>My CS Courses is a streamlined web application showcasing the Computer Science courses I've taken, along with the
 									semesters and grades for each, providing a clear view of my academic progress.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/omsb8/react-cs-courses" target="_blank" class="button large">View Project</a>
+										<li><a href="https://github.com/omsb8/react-cs-courses" target="_blank" rel="noopener noreferrer" class="button large">View Project</a>
 										</li>
 									</ul>
 								</article>
-								<article>
+<article>
 									<header>
 										<span class="date">Fall 2023</span>
-										<h2><a href="#">React Static Page<br /> </a></h2>
+										<h2><a href="https://facts-about-me-react.netlify.app/">React Static Page<br /> </a></h2>
 									</header>
-									<a href="https://facts-about-me-react.netlify.app/" target="_blank" class="image fit"><img src="images/react-page-1.png" alt="" /> </a>
+									<a href="https://facts-about-me-react.netlify.app/" target="_blank" rel="noopener noreferrer" class="image fit"><img src="images/react-page-1.png" alt="Early React profile exercise" /> </a>
 
 									<p>In this project, I've created a simple static web page using React, showing some facts about me.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/omsb8/react-project-1" target="_blank" class="button">View Project</a></li>
+										<li><a href="https://github.com/omsb8/react-project-1" target="_blank" rel="noopener noreferrer" class="button">View Project</a></li>
 									</ul>
 								</article>
-								<article>
+<article>
 									<header>
 										<span class="date">Fall 2023</span>
-										<h2><a href="#">BackMasking<br /> </a></h2>
+										<h2><a href="https://github.com/omsb8/backmasking">BackMasking<br /> </a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/backwards3.png" alt="" /> </a>
+									<a href="https://github.com/omsb8/backmasking" class="image fit"><img src="images/backwards3.png" alt="BackMasking audio project" /> </a>
 
 									<p>The "BackMasking" project started with the goal of reversing audio data in the .dat format, specifically, audio data obtained from .wav files.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/omsb8/BackMasking" target="_blank" class="button">View Project</a></li>
+										<li><a href="https://github.com/omsb8/backmasking" target="_blank" rel="noopener noreferrer" class="button">View Project</a></li>
 									</ul>
 								</article>
-								<article>
+<article>
 									<header>
 										<span class="date">Fall 2022</span>
-										<h2><a href="#">Castle OR Farm? <br /></a></h2>
+										<h2><a href="https://github.com/omsb8/java-castle">Castle OR Farm? <br /></a></h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/my_castle.jpg" alt="" /></a>
+									<a href="https://github.com/omsb8/Java-Castle" class="image fit"><img src="images/my_castle.jpg" alt="Castle Java text game" /></a>
 									<p>The castle Java program is a text-based game that simulates exploring a castle with interconnected rooms. The game uses ASCII art to represent each room and allows players to move between rooms and find the shortest path to specific destinations within the castle.</p>
 									<ul class="actions special">
-										<li><a href="https://github.com/omsb8/Java-Castle" target="_blank" class="button">View Project</a></li>
+										<li><a href="https://github.com/omsb8/Java-Castle" target="_blank" rel="noopener noreferrer" class="button">View Project</a></li>
 									</ul>
-								</article>
-							</section>
+								</article></div></details></section>
 
 
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
+						<section><h2>Let’s connect.</h2><p>Interested in analytics, business intelligence, or a technical collaboration? Find my projects on GitHub or connect with me on LinkedIn.</p><ul class="actions"><li><a href="https://www.linkedin.com/in/ousama-batais/" class="button">LinkedIn</a></li><li><a href="https://github.com/omsb8" class="button">GitHub</a></li></ul></section>
 						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>2979 Churchill Way<br />
-								Dallas, TX 75251-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(206) 636-2061</a></p>
-							</section>
+							<section class="alt"><h3>Location</h3><p>Dallas–Fort Worth, Texas</p></section>
+							
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">Ousama.Batais@gmail.com</a></p>
+								<p><a href="mailto:Ousama.Batais@gmail.com">Ousama.Batais@gmail.com</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
@@ -224,7 +213,7 @@
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; Ousama Batais</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
 			</div>
